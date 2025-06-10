@@ -5,6 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* change me */
+  display: flex;
+  flex-direction: column;
+}
+
+/* new rule */
+botton {
+  padding: 8px 16px;
+}
+
+/* new rule */
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* new rule */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* new rule */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* new rule */
+.footer {
+  background: #eee;
+}
+
+/* new rule */
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
 }
 
 img {
